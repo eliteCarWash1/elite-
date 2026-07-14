@@ -13,6 +13,129 @@ section{padding:80px 8%}.grid{display:grid;grid-template-columns:repeat(auto-fit
 .card{background:#141414;padding:24px;border-radius:16px;border:1px solid #222}
 .gallery img{width:100%;border-radius:12px}.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
 footer{padding:30px;text-align:center;background:#111}
+  /* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:992px){
+
+header{
+
+padding:15px 6%;
+
+}
+
+.hero{
+
+text-align:center;
+
+justify-content:center;
+
+}
+
+.hero h1{
+
+font-size:48px;
+
+}
+
+.hero p{
+
+font-size:16px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+header{
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+nav{
+
+width:100%;
+
+justify-content:center;
+
+gap:18px;
+
+}
+
+.hero{
+
+padding:140px 6% 70px;
+
+}
+
+.hero h1{
+
+font-size:38px;
+
+}
+
+.grid{
+
+grid-template-columns:1fr;
+
+}
+
+.gallery{
+
+grid-template-columns:1fr;
+
+}
+
+section{
+
+padding:70px 6%;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.hero h1{
+
+font-size:30px;
+
+}
+
+.hero p{
+
+font-size:15px;
+
+}
+
+header h2{
+
+font-size:24px;
+
+}
+
+.btn{
+
+width:100%;
+
+text-align:center;
+
+}
+
+nav{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+}
 </style></head><body>
 <header><h2>Elite Car Wash</h2><nav><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></nav><a class="btn" href="https://wa.me/919906474260">Book Now</a></header>
 <section class="hero"><div><h1>Luxury Care For Every Drive</h1><p>Professional car wash, detailing, ceramic coating and interior cleaning in Rawalpora, Srinagar.</p><a class="btn" href="https://wa.me/919906474260">Book on WhatsApp</a></div></section>
